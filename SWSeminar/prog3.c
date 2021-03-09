@@ -3,11 +3,11 @@
 
 int main(void) {
 	int height; // 키
-	float weight; // 몸무게
+	double weight; // 몸무게
 	printf("키를 입력하세요 : ");
 	scanf("%d", &height);
 	printf("몸무게를 입력하세요 : ");
-	scanf("%f", &weight);
+	scanf("%lf", &weight);
 
 	printf("=============================\n");
 	printf("       건강 검진 결과        \n");
