@@ -9,8 +9,5 @@ int main(void) {
 	printf("unsigned int ÃÖ¼Ú°ª - 1 : %u\n", 0 -1);
 
 
-
-
-
 	return 0;
 }

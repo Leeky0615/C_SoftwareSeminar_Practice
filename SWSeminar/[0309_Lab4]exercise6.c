@@ -13,7 +13,7 @@ int main(void) {
 	scanf("%d", &year);
 
 	total = money * pow(1 + rate, year);
-	printf("총 수령액(복리) : %.f원", total);
+	printf("총 수령액(복리) : %.f원\n", total);
 
 
 	return 0;
