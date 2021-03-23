@@ -3,7 +3,6 @@
 int g_result;
 void plusValue(int num);
 void minusValue(int num);
-void printResult(void);
 
 int main(void) {
 	int num;
@@ -22,26 +21,27 @@ int main(void) {
 
 
 		switch(cal){
-		case '+':
-			plusValue(num);
 		case '-':
 			minusValue(num);
+			break;
+		case '+':
+			plusValue(num);
+			break;
+		default:
+			break;
 ;		}
 
 	}
 		
-	printResult();
-
+	printf("%d\n", g_result);
 
 	return 0;
 }
-void printResult(void) {
-	printf("%d", g_result);
-}
 void plusValue(int num) {
-	g_result = g_result + num;
+	g_result+=num;
+
 }
 
 void minusValue(int num) {
-	g_result = g_result - num;
+	g_result-=num;
 }

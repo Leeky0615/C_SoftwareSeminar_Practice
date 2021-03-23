@@ -11,7 +11,7 @@ int main(void) {
 			printf("%c",result);
 			result++;
 		}
-		result = 65;
+		result = 'A';
 		printf("\n");
 	}
 

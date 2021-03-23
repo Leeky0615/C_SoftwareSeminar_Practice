@@ -69,5 +69,41 @@
     <ClCompile Include="[0309_Lab4]exercise7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="[0316_Lab5]exercise1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0316_Lab5]exercise2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0316_Lab5]exercise3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0316_Lab5]exercise4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0316_Lab5]exercise5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0316_Lab5]exercise6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0316_Lab5]exercise7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0323_Lab6]exercise1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0323_Lab6]exercise2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0323_Lab6]exercise3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0323_Lab6]exercise4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[0323_Lab6]exercise5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
