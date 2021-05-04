@@ -6,7 +6,7 @@ int main(void) {
 
 	scanf("%c", &asciiVal);
 
-	printf("ASCII %dÀº ¹®ÀÚ %c¿¡ ÇØ´çÇÕ´Ï´Ù.", asciiVal, asciiVal);
+	printf("ASCII %dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ %cï¿½ï¿½ ï¿½Ø´ï¿½ï¿½Õ´Ï´ï¿½.", asciiVal, asciiVal);
 	
 	return 0;
 }

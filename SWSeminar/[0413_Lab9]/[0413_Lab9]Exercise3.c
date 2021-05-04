@@ -8,9 +8,9 @@ typedef struct product {
 }PRODUCT;
 
 int main(void) {
-	PRODUCT prd1 = { "A4용지", 5000, 50 };
-	PRODUCT prd2 = { "충전기", 10000, 3 };
-	PRODUCT prd3 = { "이어폰", 25000, 10 };
+	PRODUCT prd1 = { "A45000, 50 };
+	PRODUCT prd2 = { "??????", ????", 10000, 3 };
+	PRODUCT prd3 = { "?????", 25000, 10 };
 	PRODUCT* prd[] = { &prd1, &prd2, &prd3 };
 
 	int count = sizeof(prd) / sizeof(prd[0]);
@@ -20,7 +20,7 @@ int main(void) {
 	{
 		printf("%-20s %8d %10d", prd[i]->name, prd[i]->price, prd[i]->stock);
 		if (prd[i]->stock < 10) {
-			printf("  ==> 주문필요!!\n");
+			printf("  ==> ??????!!\n");
 		}
 		else {
 			printf("\n");

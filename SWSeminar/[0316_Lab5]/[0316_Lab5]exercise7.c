@@ -18,3 +18,4 @@ void RnumberGen(int* A, int size, int range)
 	for (i = 0; i < size; i++) {
 		A[i] = rand() % range + 1;
 	}
+}
