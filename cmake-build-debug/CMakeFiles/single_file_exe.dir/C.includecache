@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
