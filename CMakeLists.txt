@@ -4,5 +4,5 @@ project(SWSeminar)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-fexec-charset=CP949")
 
-add_executable(single_file_exe SWSeminar/[0511_Lab10]/[0511_Lab10]Exercise3.c)
+add_executable(single_file_exe SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c)
 set_target_properties(single_file_exe PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/SWSeminar/")
