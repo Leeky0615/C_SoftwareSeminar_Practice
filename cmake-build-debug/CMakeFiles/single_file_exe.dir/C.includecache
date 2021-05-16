@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c
+C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0517_Homework]/BookManagementSystem.c
 stdio.h
 -
 string.h
 -
 stdlib.h
+-
+stdbool.h
 -
 

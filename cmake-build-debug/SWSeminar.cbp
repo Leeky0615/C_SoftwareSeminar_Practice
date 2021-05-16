@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c">
+		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0517_Homework]/BookManagementSystem.c">
 			<Option target="single_file_exe"/>
 		</Unit>
 		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/CMakeLists.txt">

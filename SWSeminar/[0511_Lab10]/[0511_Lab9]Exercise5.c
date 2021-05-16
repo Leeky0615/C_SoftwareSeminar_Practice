@@ -7,7 +7,7 @@ typedef struct contact {
     char phone[32];
 } CONTACT;
 
-CONTACT* AllocateContacts(int count);
+CONTACT* AllocateBooks(int count);
 void InputContacts(CONTACT* contacts, int count);
 void PrintContacts(const CONTACT* contacts, int count);
 
@@ -32,7 +32,7 @@ int main(void){
     return 0;
 }
 
-CONTACT* AllocateContacts(int count){
+CONTACT* AllocateBooks(int count){
     CONTACT *result = NULL;
     result = (CONTACT*)malloc(sizeof(CONTACT)*count);
     if( result == NULL ) printf("동적 메모리 할당 실패\n");

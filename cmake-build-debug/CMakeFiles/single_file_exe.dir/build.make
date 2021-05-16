@@ -60,33 +60,33 @@ include CMakeFiles\single_file_exe.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\single_file_exe.dir\flags.make
 
-CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj: CMakeFiles\single_file_exe.dir\flags.make
-CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj: ..\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/single_file_exe.dir/SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c.obj"
+CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.obj: CMakeFiles\single_file_exe.dir\flags.make
+CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.obj: ..\SWSeminar\[0517_Homework]\BookManagementSystem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/single_file_exe.dir/SWSeminar/[0517_Homework]/BookManagementSystem.c.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj /FdCMakeFiles\single_file_exe.dir\ /FS -c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.obj /FdCMakeFiles\single_file_exe.dir\ /FS -c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0517_Homework]\BookManagementSystem.c
 <<
 
-CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/single_file_exe.dir/SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c
+CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/single_file_exe.dir/SWSeminar/[0517_Homework]/BookManagementSystem.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0517_Homework]\BookManagementSystem.c
 <<
 
-CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/single_file_exe.dir/SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c.s"
+CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/single_file_exe.dir/SWSeminar/[0517_Homework]/BookManagementSystem.c.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.s /c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.s /c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0517_Homework]\BookManagementSystem.c
 <<
 
 # Object files for target single_file_exe
 single_file_exe_OBJECTS = \
-"CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj"
+"CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.obj"
 
 # External object files for target single_file_exe
 single_file_exe_EXTERNAL_OBJECTS =
 
-..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj
+..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.obj
 ..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\build.make
 ..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ..\SWSeminar\single_file_exe.exe"

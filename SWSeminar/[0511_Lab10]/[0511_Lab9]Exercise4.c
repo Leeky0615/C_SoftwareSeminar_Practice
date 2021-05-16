@@ -19,7 +19,6 @@ int main() {
         gets(nameToFind);
 
         if (strcmp(nameToFind, ".") == 0) break;
-
         found = -1;
         for (int i = 0; i < cnt; i++) {
             if (strcmp(nameToFind, contacts[i]->name) == 0) {

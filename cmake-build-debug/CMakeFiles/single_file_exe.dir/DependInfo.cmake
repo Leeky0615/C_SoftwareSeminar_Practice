@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c" "C:/Users/rbdus/CLionProjects/SWSeminar/cmake-build-debug/CMakeFiles/single_file_exe.dir/SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.c.obj"
+  "C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0517_Homework]/BookManagementSystem.c" "C:/Users/rbdus/CLionProjects/SWSeminar/cmake-build-debug/CMakeFiles/single_file_exe.dir/SWSeminar/[0517_Homework]/BookManagementSystem.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

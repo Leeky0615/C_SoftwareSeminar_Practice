@@ -126,32 +126,32 @@ single_file_exe\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\build
 .PHONY : single_file_exe\fast
 
-SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.obj: SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj
+SWSeminar\[0517_Homework]\BookManagementSystem.obj: SWSeminar\[0517_Homework]\BookManagementSystem.c.obj
 
-.PHONY : SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.obj
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.obj
 
 # target to build an object file
-SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj
-.PHONY : SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.obj
+SWSeminar\[0517_Homework]\BookManagementSystem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.obj
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.c.obj
 
-SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.i: SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.i
+SWSeminar\[0517_Homework]\BookManagementSystem.i: SWSeminar\[0517_Homework]\BookManagementSystem.c.i
 
-.PHONY : SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.i
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.i
 
 # target to preprocess a source file
-SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.i
-.PHONY : SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.i
+SWSeminar\[0517_Homework]\BookManagementSystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.i
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.c.i
 
-SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.s: SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.s
+SWSeminar\[0517_Homework]\BookManagementSystem.s: SWSeminar\[0517_Homework]\BookManagementSystem.c.s
 
-.PHONY : SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.s
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.s
 
 # target to generate assembly for a file
-SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.s
-.PHONY : SWSeminar\[0511_Lab10]\[0511_Lab9]Exercise4.c.s
+SWSeminar\[0517_Homework]\BookManagementSystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.s
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... single_file_exe
-	@echo ... SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.obj
-	@echo ... SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.i
-	@echo ... SWSeminar/[0511_Lab10]/[0511_Lab9]Exercise4.s
+	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem.obj
+	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem.i
+	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem.s
 .PHONY : help
 
 
