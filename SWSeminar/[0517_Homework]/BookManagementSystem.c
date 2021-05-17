@@ -10,11 +10,6 @@ typedef struct book {
     char writer[MAX];
     unsigned int price;
 } BOOK;
-BOOK *AllocateBooks(int count); // 초기 메모리 할당
-
-/*
- * 정렬 및 탐색 비교함수
- */
 int CompareByPrice(const void *e1, const void *e2);
 
 int main() {
@@ -41,7 +36,8 @@ int main() {
             case 1:
                 if (cnt >= MAX_ARRAY) printf("저장 가능한 책의 수를 초과했습니다.\n");
                 else{
-                    books[cnt] = malloc(sizeof(BOOK));
+                    books[cnt] = (BOOK*)malloc(sizeof(BOOK));
+                    memset(books[cnt], 0, sizeof(BOOK));
                     printf("->도서 제목 :");
                     gets_s(books[cnt]->name,MAX);
                     printf("->저 자 명 :");
@@ -89,7 +85,7 @@ int main() {
                 }
                 break;
             case 4:
-                qsort(books, cnt, sizeof(BOOK), CompareByPrice);
+                qsort(books, cnt, sizeof(BOOK*), CompareByPrice);
                 printf("\n--- 전체 도서 목록 ---\n");
                 for (int i = 0; i < cnt; i++) {
                     printf("%-16s %-16s %4d\n", books[i]->name, books[i]->writer, books[i]->price);
@@ -112,7 +108,7 @@ int main() {
     return 0;
 }
 int CompareByPrice(const void *e1, const void *e2) {
-    const BOOK *p1 = (const BOOK *) e1;
-    const BOOK *p2 = (const BOOK *) e2;
+    const BOOK *p1 = *(const BOOK**) e1;
+    const BOOK *p2 = *(const BOOK**) e2;
     return p2->price - p1->price;
 }

@@ -126,32 +126,32 @@ single_file_exe\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\build
 .PHONY : single_file_exe\fast
 
-SWSeminar\[0517_Homework]\BookManagementSystem.obj: SWSeminar\[0517_Homework]\BookManagementSystem.c.obj
+SWSeminar\[0517_Homework]\BookManagementSystem2.obj: SWSeminar\[0517_Homework]\BookManagementSystem2.c.obj
 
-.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.obj
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem2.obj
 
 # target to build an object file
-SWSeminar\[0517_Homework]\BookManagementSystem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.obj
-.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.c.obj
+SWSeminar\[0517_Homework]\BookManagementSystem2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem2.c.obj
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem2.c.obj
 
-SWSeminar\[0517_Homework]\BookManagementSystem.i: SWSeminar\[0517_Homework]\BookManagementSystem.c.i
+SWSeminar\[0517_Homework]\BookManagementSystem2.i: SWSeminar\[0517_Homework]\BookManagementSystem2.c.i
 
-.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.i
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem2.i
 
 # target to preprocess a source file
-SWSeminar\[0517_Homework]\BookManagementSystem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.i
-.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.c.i
+SWSeminar\[0517_Homework]\BookManagementSystem2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem2.c.i
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem2.c.i
 
-SWSeminar\[0517_Homework]\BookManagementSystem.s: SWSeminar\[0517_Homework]\BookManagementSystem.c.s
+SWSeminar\[0517_Homework]\BookManagementSystem2.s: SWSeminar\[0517_Homework]\BookManagementSystem2.c.s
 
-.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.s
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem2.s
 
 # target to generate assembly for a file
-SWSeminar\[0517_Homework]\BookManagementSystem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem.c.s
-.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem.c.s
+SWSeminar\[0517_Homework]\BookManagementSystem2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0517_Homework]\BookManagementSystem2.c.s
+.PHONY : SWSeminar\[0517_Homework]\BookManagementSystem2.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... single_file_exe
-	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem.obj
-	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem.i
-	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem.s
+	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem2.obj
+	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem2.i
+	@echo ... SWSeminar/[0517_Homework]/BookManagementSystem2.s
 .PHONY : help
 
 

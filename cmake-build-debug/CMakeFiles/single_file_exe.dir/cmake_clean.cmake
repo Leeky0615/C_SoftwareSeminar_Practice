@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "../SWSeminar/single_file_exe.exe"
   "../SWSeminar/single_file_exe.exe.manifest"
   "../SWSeminar/single_file_exe.pdb"
-  "CMakeFiles/single_file_exe.dir/SWSeminar/[0517_Homework]/BookManagementSystem.c.obj"
+  "CMakeFiles/single_file_exe.dir/SWSeminar/[0517_Homework]/BookManagementSystem2.c.obj"
   "single_file_exe.lib"
 )
 
