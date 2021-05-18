@@ -11,20 +11,19 @@ typedef struct book {
     unsigned int price;
 } BOOK;
 
-BOOK *AllocateBooks(int count); // 초기 메모리 할당
-
-void PrintBookInfos(const BOOK *book, int count); // 모든 도서 정보 출력
-void InputBooks(BOOK *books, int count); // opt=1 도서 입력
-
+BOOK *AllocateBooks(int count);
+void PrintBookInfos(const BOOK *book, int count);
+void InputBooks(BOOK *books, int count);
 int CompareByPrice(const void *e1, const void *e2);
 
 int main() {
-    BOOK *books = NULL; // 구조체 배열
-    int cnt = 0; // 구조체 배열 크기
-    int opt; // 옵션 번호
-    char bookToSearch[MAX]; // 검색 파라미터
-    bool bOnLoop = true; // opt=5 (끝)
+    BOOK *books = NULL;
+    int cnt = 0;
+    int saveCnt = 0;
+    char bookToSearch[MAX];
+    bool bOnLoop = true;
     int found;
+    int opt;
 
     printf("저장할 도서의 개수 : ");
     scanf("%d", &cnt);
@@ -47,7 +46,10 @@ int main() {
         printf("\n");
         switch (opt) {
             case 1:
-                InputBooks(books, cnt);
+                if(saveCnt == 0){
+                    InputBooks(books, cnt);
+                    saveCnt++;
+                }else printf("이미 도서를 저장했습니다.");
                 break;
             case 2:
                 printf("-> 저자명 : ");
@@ -129,11 +131,10 @@ void InputBooks(BOOK *books, int count) {
 void PrintBookInfos(const BOOK *books, int count) {
     printf("\n--- 전체 도서 목록 ---\n");
     for (int i = 0; i < count; i++) {
-        printf("%-16s %-16s %4d\n", books[i].name, books[i].writer, books[i].price);
+        printf("%-16s %-16s %4d원\n", books[i].name, books[i].writer, books[i].price);
     }
 }
 
-// 비교 함수
 int CompareByPrice(const void *e1, const void *e2) {
     const BOOK *p1 = (const BOOK *) e1;
     const BOOK *p2 = (const BOOK *) e2;

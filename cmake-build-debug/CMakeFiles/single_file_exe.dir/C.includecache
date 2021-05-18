@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0517_Homework]/BookManagementSystem2.c
+C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0518_Lab11]/font.c
 stdio.h
 -
-string.h
--
-stdlib.h
--
-stdbool.h
--
+font.h
+C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0518_Lab11]/font.h
+font.h
+C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0518_Lab11]/font.h
+
+C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0518_Lab11]/font.h
 
