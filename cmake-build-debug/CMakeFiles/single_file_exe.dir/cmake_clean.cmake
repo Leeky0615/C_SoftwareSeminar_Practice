@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "../SWSeminar/single_file_exe.exe"
   "../SWSeminar/single_file_exe.exe.manifest"
   "../SWSeminar/single_file_exe.pdb"
-  "CMakeFiles/single_file_exe.dir/SWSeminar/[0518_Lab11]/font.c.obj"
+  "CMakeFiles/single_file_exe.dir/SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise2.c.obj"
   "single_file_exe.lib"
 )
 

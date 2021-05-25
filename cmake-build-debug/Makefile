@@ -126,32 +126,32 @@ single_file_exe\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\build
 .PHONY : single_file_exe\fast
 
-SWSeminar\[0518_Lab11]\font.obj: SWSeminar\[0518_Lab11]\font.c.obj
+SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.obj: SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.obj
 
-.PHONY : SWSeminar\[0518_Lab11]\font.obj
+.PHONY : SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.obj
 
 # target to build an object file
-SWSeminar\[0518_Lab11]\font.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0518_Lab11]\font.c.obj
-.PHONY : SWSeminar\[0518_Lab11]\font.c.obj
+SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.obj
+.PHONY : SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.obj
 
-SWSeminar\[0518_Lab11]\font.i: SWSeminar\[0518_Lab11]\font.c.i
+SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.i: SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.i
 
-.PHONY : SWSeminar\[0518_Lab11]\font.i
+.PHONY : SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.i
 
 # target to preprocess a source file
-SWSeminar\[0518_Lab11]\font.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0518_Lab11]\font.c.i
-.PHONY : SWSeminar\[0518_Lab11]\font.c.i
+SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.i
+.PHONY : SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.i
 
-SWSeminar\[0518_Lab11]\font.s: SWSeminar\[0518_Lab11]\font.c.s
+SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.s: SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.s
 
-.PHONY : SWSeminar\[0518_Lab11]\font.s
+.PHONY : SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.s
 
 # target to generate assembly for a file
-SWSeminar\[0518_Lab11]\font.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0518_Lab11]\font.c.s
-.PHONY : SWSeminar\[0518_Lab11]\font.c.s
+SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.s
+.PHONY : SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise2.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... single_file_exe
-	@echo ... SWSeminar/[0518_Lab11]/font.obj
-	@echo ... SWSeminar/[0518_Lab11]/font.i
-	@echo ... SWSeminar/[0518_Lab11]/font.s
+	@echo ... SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise2.obj
+	@echo ... SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise2.i
+	@echo ... SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise2.s
 .PHONY : help
 
 

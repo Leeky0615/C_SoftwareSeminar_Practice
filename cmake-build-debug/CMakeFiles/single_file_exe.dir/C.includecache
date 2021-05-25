@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0518_Lab11]/font.c
+C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise2.c
 stdio.h
 -
-font.h
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0518_Lab11]/font.h
-font.h
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0518_Lab11]/font.h
-
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0518_Lab11]/font.h
+stdbool.h
+-
+vcruntime_string.h
+-
+stdlib.h
+-
 
