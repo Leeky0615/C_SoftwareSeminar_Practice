@@ -42,10 +42,10 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -73,7 +73,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -126,32 +126,113 @@ single_file_exe\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\build
 .PHONY : single_file_exe\fast
 
-SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.obj: SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.obj
+SWSeminar\[0603_Homework]\Book.obj: SWSeminar\[0603_Homework]\Book.c.obj
 
-.PHONY : SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.obj
+.PHONY : SWSeminar\[0603_Homework]\Book.obj
 
 # target to build an object file
-SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.obj
-.PHONY : SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.obj
+SWSeminar\[0603_Homework]\Book.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.obj
+.PHONY : SWSeminar\[0603_Homework]\Book.c.obj
 
-SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.i: SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.i
+SWSeminar\[0603_Homework]\Book.i: SWSeminar\[0603_Homework]\Book.c.i
 
-.PHONY : SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.i
+.PHONY : SWSeminar\[0603_Homework]\Book.i
 
 # target to preprocess a source file
-SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.i
-.PHONY : SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.i
+SWSeminar\[0603_Homework]\Book.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.i
+.PHONY : SWSeminar\[0603_Homework]\Book.c.i
 
-SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.s: SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.s
+SWSeminar\[0603_Homework]\Book.s: SWSeminar\[0603_Homework]\Book.c.s
 
-.PHONY : SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.s
+.PHONY : SWSeminar\[0603_Homework]\Book.s
 
 # target to generate assembly for a file
-SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.s
-.PHONY : SWSeminar\[0504_Lab10]\[0504_Lab10]Exercise1.c.s
+SWSeminar\[0603_Homework]\Book.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.s
+.PHONY : SWSeminar\[0603_Homework]\Book.c.s
+
+SWSeminar\[0603_Homework]\FileIo.obj: SWSeminar\[0603_Homework]\FileIo.c.obj
+
+.PHONY : SWSeminar\[0603_Homework]\FileIo.obj
+
+# target to build an object file
+SWSeminar\[0603_Homework]\FileIo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.obj
+.PHONY : SWSeminar\[0603_Homework]\FileIo.c.obj
+
+SWSeminar\[0603_Homework]\FileIo.i: SWSeminar\[0603_Homework]\FileIo.c.i
+
+.PHONY : SWSeminar\[0603_Homework]\FileIo.i
+
+# target to preprocess a source file
+SWSeminar\[0603_Homework]\FileIo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.i
+.PHONY : SWSeminar\[0603_Homework]\FileIo.c.i
+
+SWSeminar\[0603_Homework]\FileIo.s: SWSeminar\[0603_Homework]\FileIo.c.s
+
+.PHONY : SWSeminar\[0603_Homework]\FileIo.s
+
+# target to generate assembly for a file
+SWSeminar\[0603_Homework]\FileIo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.s
+.PHONY : SWSeminar\[0603_Homework]\FileIo.c.s
+
+SWSeminar\[0603_Homework]\Main.obj: SWSeminar\[0603_Homework]\Main.c.obj
+
+.PHONY : SWSeminar\[0603_Homework]\Main.obj
+
+# target to build an object file
+SWSeminar\[0603_Homework]\Main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.obj
+.PHONY : SWSeminar\[0603_Homework]\Main.c.obj
+
+SWSeminar\[0603_Homework]\Main.i: SWSeminar\[0603_Homework]\Main.c.i
+
+.PHONY : SWSeminar\[0603_Homework]\Main.i
+
+# target to preprocess a source file
+SWSeminar\[0603_Homework]\Main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.i
+.PHONY : SWSeminar\[0603_Homework]\Main.c.i
+
+SWSeminar\[0603_Homework]\Main.s: SWSeminar\[0603_Homework]\Main.c.s
+
+.PHONY : SWSeminar\[0603_Homework]\Main.s
+
+# target to generate assembly for a file
+SWSeminar\[0603_Homework]\Main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.s
+.PHONY : SWSeminar\[0603_Homework]\Main.c.s
+
+SWSeminar\[0603_Homework]\Menu.obj: SWSeminar\[0603_Homework]\Menu.c.obj
+
+.PHONY : SWSeminar\[0603_Homework]\Menu.obj
+
+# target to build an object file
+SWSeminar\[0603_Homework]\Menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.obj
+.PHONY : SWSeminar\[0603_Homework]\Menu.c.obj
+
+SWSeminar\[0603_Homework]\Menu.i: SWSeminar\[0603_Homework]\Menu.c.i
+
+.PHONY : SWSeminar\[0603_Homework]\Menu.i
+
+# target to preprocess a source file
+SWSeminar\[0603_Homework]\Menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.i
+.PHONY : SWSeminar\[0603_Homework]\Menu.c.i
+
+SWSeminar\[0603_Homework]\Menu.s: SWSeminar\[0603_Homework]\Menu.c.s
+
+.PHONY : SWSeminar\[0603_Homework]\Menu.s
+
+# target to generate assembly for a file
+SWSeminar\[0603_Homework]\Menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\single_file_exe.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.s
+.PHONY : SWSeminar\[0603_Homework]\Menu.c.s
 
 # Help Target
 help:
@@ -162,9 +243,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... single_file_exe
-	@echo ... SWSeminar/[0504_Lab10]/[0504_Lab10]Exercise1.obj
-	@echo ... SWSeminar/[0504_Lab10]/[0504_Lab10]Exercise1.i
-	@echo ... SWSeminar/[0504_Lab10]/[0504_Lab10]Exercise1.s
+	@echo ... SWSeminar/[0603_Homework]/Book.obj
+	@echo ... SWSeminar/[0603_Homework]/Book.i
+	@echo ... SWSeminar/[0603_Homework]/Book.s
+	@echo ... SWSeminar/[0603_Homework]/FileIo.obj
+	@echo ... SWSeminar/[0603_Homework]/FileIo.i
+	@echo ... SWSeminar/[0603_Homework]/FileIo.s
+	@echo ... SWSeminar/[0603_Homework]/Main.obj
+	@echo ... SWSeminar/[0603_Homework]/Main.i
+	@echo ... SWSeminar/[0603_Homework]/Main.s
+	@echo ... SWSeminar/[0603_Homework]/Menu.obj
+	@echo ... SWSeminar/[0603_Homework]/Menu.i
+	@echo ... SWSeminar/[0603_Homework]/Menu.s
 .PHONY : help
 
 

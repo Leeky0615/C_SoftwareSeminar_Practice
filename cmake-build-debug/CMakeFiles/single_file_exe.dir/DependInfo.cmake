@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0504_Lab10]/[0504_Lab10]Exercise1.c" "C:/Users/rbdus/CLionProjects/SWSeminar/cmake-build-debug/CMakeFiles/single_file_exe.dir/SWSeminar/[0504_Lab10]/[0504_Lab10]Exercise1.c.obj"
+  "C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Book.c" "C:/Users/rbdus/CLionProjects/SWSeminar/cmake-build-debug/CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Book.c.obj"
+  "C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/FileIo.c" "C:/Users/rbdus/CLionProjects/SWSeminar/cmake-build-debug/CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/FileIo.c.obj"
+  "C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Main.c" "C:/Users/rbdus/CLionProjects/SWSeminar/cmake-build-debug/CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Main.c.obj"
+  "C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Menu.c" "C:/Users/rbdus/CLionProjects/SWSeminar/cmake-build-debug/CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Menu.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 
