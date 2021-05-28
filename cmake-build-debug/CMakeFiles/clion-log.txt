@@ -1,4 +1,16 @@
 "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\rbdus\CLionProjects\SWSeminar
 -- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/rbdus/CLionProjects/SWSeminar/cmake-build-debug
+CMake Error at CMakeLists.txt:7 (add_executable):
+  Cannot find source file:
+
+    SWSeminar/[0603_Homework]/Main.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .ispc
+
+
+CMake Error at CMakeLists.txt:7 (add_executable):
+  No SOURCES given to target: single_file_exe
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
