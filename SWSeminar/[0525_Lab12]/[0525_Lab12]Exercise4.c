@@ -35,19 +35,29 @@ int main(){
     }
 
     // 텍스트 파일 열기
-    fp = fopen("exercise2.txt", "w");
+    fp = fopen("exercise2.txt", "wb");
     if (fp == NULL) {
         printf("파일 열기 실패\n");
         return -1;
     }
 
-    // 텍스트 파일에 저장
-    fprintf(fp, "전체 사용자 수 : %d명\n", cnt);
-    for (int i = 0; i < cnt; ++i) {
-        fprintf(fp, "%s %s\n", loginInfo[i].id, loginInfo[i].passwd);
-    }
-
+    // 텍스트 파일에 저장 (바이너리)
+    fwrite(&cnt, sizeof(int), 1, fp);
+    fwrite(loginInfo, sizeof(LOGIN_INFO), cnt, fp);
     fclose(fp);
+
+
+    // 바이너리 저장 확인
+    fp = fopen("exercise2.txt","rb");
+    fread(&cnt, sizeof(int), 1, fp);
+    fread(loginInfo, sizeof(LOGIN_INFO), cnt, fp);
+
+    printf("%d\n", cnt);
+    for (int i = 0; i < cnt; ++i) {
+        printf("%s %s\n", loginInfo[i].id, loginInfo[i].passwd);
+    }
+    fclose(fp);
+
     return 0;
 }
 

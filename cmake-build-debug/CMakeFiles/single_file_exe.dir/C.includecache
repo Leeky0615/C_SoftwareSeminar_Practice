@@ -6,29 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Book.h
+C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise6.c
 stdio.h
 -
-string.h
+math.h
 -
 stdlib.h
 -
-stdbool.h
--
-
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/FileIo.h
-Book.h
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Book.h
-
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Main.c
-Book.h
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Book.h
-Menu.h
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Menu.h
-FileIo.h
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/FileIo.h
-
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Menu.h
-Book.h
-C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Book.h
 

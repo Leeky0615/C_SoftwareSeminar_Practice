@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define MAX_BUF 100
 
 int main(){
     FILE *fp1, *fp2;

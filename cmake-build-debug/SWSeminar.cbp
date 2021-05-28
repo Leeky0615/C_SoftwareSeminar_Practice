@@ -82,25 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Book.c">
-			<Option target="single_file_exe"/>
-		</Unit>
-		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Book.h">
-			<Option target="single_file_exe"/>
-		</Unit>
-		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/FileIo.c">
-			<Option target="single_file_exe"/>
-		</Unit>
-		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/FileIo.h">
-			<Option target="single_file_exe"/>
-		</Unit>
-		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Main.c">
-			<Option target="single_file_exe"/>
-		</Unit>
-		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Menu.c">
-			<Option target="single_file_exe"/>
-		</Unit>
-		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0603_Homework]/Menu.h">
+		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise6.c">
 			<Option target="single_file_exe"/>
 		</Unit>
 		<Unit filename="C:/Users/rbdus/CLionProjects/SWSeminar/CMakeLists.txt">

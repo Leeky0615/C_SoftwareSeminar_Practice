@@ -60,99 +60,36 @@ include CMakeFiles\single_file_exe.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\single_file_exe.dir\flags.make
 
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.obj: CMakeFiles\single_file_exe.dir\flags.make
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.obj: ..\SWSeminar\[0603_Homework]\Main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Main.c.obj"
+CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.obj: CMakeFiles\single_file_exe.dir\flags.make
+CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.obj: ..\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/single_file_exe.dir/SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise6.c.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.obj /FdCMakeFiles\single_file_exe.dir\ /FS -c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Main.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.obj /FdCMakeFiles\single_file_exe.dir\ /FS -c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c
 <<
 
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Main.c.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Main.c
+CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/single_file_exe.dir/SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise6.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c
 <<
 
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Main.c.s"
+CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/single_file_exe.dir/SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise6.c.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.s /c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Main.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.obj: CMakeFiles\single_file_exe.dir\flags.make
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.obj: ..\SWSeminar\[0603_Homework]\Book.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Book.c.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.obj /FdCMakeFiles\single_file_exe.dir\ /FS -c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Book.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Book.c.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Book.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Book.c.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.s /c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Book.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.obj: CMakeFiles\single_file_exe.dir\flags.make
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.obj: ..\SWSeminar\[0603_Homework]\Menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Menu.c.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.obj /FdCMakeFiles\single_file_exe.dir\ /FS -c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Menu.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Menu.c.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Menu.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Menu.c.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.s /c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\Menu.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.obj: CMakeFiles\single_file_exe.dir\flags.make
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.obj: ..\SWSeminar\[0603_Homework]\FileIo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/FileIo.c.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.obj /FdCMakeFiles\single_file_exe.dir\ /FS -c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\FileIo.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/FileIo.c.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\FileIo.c
-<<
-
-CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/FileIo.c.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.s /c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0603_Homework]\FileIo.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.s /c C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c
 <<
 
 # Object files for target single_file_exe
 single_file_exe_OBJECTS = \
-"CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.obj" \
-"CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.obj" \
-"CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.obj" \
-"CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.obj"
+"CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.obj"
 
 # External object files for target single_file_exe
 single_file_exe_EXTERNAL_OBJECTS =
 
-..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Main.c.obj
-..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Book.c.obj
-..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\Menu.c.obj
-..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\SWSeminar\[0603_Homework]\FileIo.c.obj
+..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\SWSeminar\[0525_Lab12]\[0525_Lab12]Exercise6.c.obj
 ..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\build.make
 ..\SWSeminar\single_file_exe.exe: CMakeFiles\single_file_exe.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ..\SWSeminar\single_file_exe.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rbdus\CLionProjects\SWSeminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ..\SWSeminar\single_file_exe.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\single_file_exe.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\single_file_exe.dir\objects1.rsp @<<
  /out:..\SWSeminar\single_file_exe.exe /implib:single_file_exe.lib /pdb:C:\Users\rbdus\CLionProjects\SWSeminar\SWSeminar\single_file_exe.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

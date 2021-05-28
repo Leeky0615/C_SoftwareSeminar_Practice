@@ -2,10 +2,7 @@ file(REMOVE_RECURSE
   "../SWSeminar/single_file_exe.exe"
   "../SWSeminar/single_file_exe.exe.manifest"
   "../SWSeminar/single_file_exe.pdb"
-  "CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Book.c.obj"
-  "CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/FileIo.c.obj"
-  "CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Main.c.obj"
-  "CMakeFiles/single_file_exe.dir/SWSeminar/[0603_Homework]/Menu.c.obj"
+  "CMakeFiles/single_file_exe.dir/SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise6.c.obj"
   "single_file_exe.lib"
 )
 

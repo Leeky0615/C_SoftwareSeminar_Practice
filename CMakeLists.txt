@@ -4,5 +4,5 @@ project(SWSeminar)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-fexec-charset=CP949")
 
-add_executable(single_file_exe SWSeminar/[0603_Homework]/Main.c SWSeminar/[0603_Homework]/Book.h SWSeminar/[0603_Homework]/Book.c SWSeminar/[0603_Homework]/Menu.h SWSeminar/[0603_Homework]/Menu.c SWSeminar/[0603_Homework]/FileIo.h SWSeminar/[0603_Homework]/FileIo.c)
+add_executable(single_file_exe SWSeminar/[0525_Lab12]/[0525_Lab12]Exercise6.c)
 set_target_properties(single_file_exe PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/SWSeminar/")
